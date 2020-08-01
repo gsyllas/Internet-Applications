@@ -26,7 +26,7 @@ class BestScorersData extends Component {
                   <Table
                     style={{
                       overflowY: "scroll",
-                      display: "block",
+                      //display: "block",
                       maxHeight: "400px",
                       marginLeft: "30px",
                       maxWidth: "850px",
