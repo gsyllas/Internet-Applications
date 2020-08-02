@@ -33,6 +33,9 @@ Versions που χρησιμοποίησα σε Windows 10 και σίγουρα
 cd /Nba-backend/ 
 Εκεί εκτελούμε gradle appRun (θα πάρει λίγη ώρα την πρώτη φορά)
 
+Επίσης μόλις σηκωθεί ο server ανοίγουμε ένα παράθυρο browses, πλοηγούμαστε στο https://localhost:8765/nba/api/AllPlayers/James Harden
+και εκεί πατάμε advanced options και μετά accept the risk and continue. Αυτό συμβαίνει διότι δεν έχουμε authorized ssl certificate.
+
 Σε ένα άλλο command line:
 cd /Nba-frontend/
 Εκεί εκτελούμε yarn install και όταν τελείωσει yarn start
